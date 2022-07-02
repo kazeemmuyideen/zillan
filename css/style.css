@@ -24,3 +24,23 @@
 .main-nav-link{
     margin: 1.5rem;
 }
+/* hero section */
+.hero{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 3.2rem;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 9rem;
+    align-items: center;
+}
+
+.hero-description {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+
+.hero-img{
+    width: 100%;
+}
