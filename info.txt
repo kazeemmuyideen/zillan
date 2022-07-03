@@ -1,3 +1,5 @@
 /**********************************
 primary color = #202736
 secondary color = #172537
+
+bg-color = #F0EBE3

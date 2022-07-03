@@ -6,8 +6,9 @@
 
     height: 9.6rem;
     padding: 0 4.8rem;
-    position:relative
+    position:relative;
     
+    background-color: #F0EBE3;
 }
 
 .logo {
@@ -19,12 +20,29 @@
     list-style: none;
     display: flex;
     justify-items: space-around;
+
+    
 }
 
 .main-nav-link{
-    margin: 1.5rem;
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    transition: 0.3s;
+
+}
+
+.main-nav-link:hover,
+.main-nav-link:active{
+    color: #819a99;
 }
 /* hero section */
+.section-hero{
+    background-color: #F0EBE3;
+    height: 73vh;
+}
+
 .hero{
     max-width: 130rem;
     margin: 0 auto;
@@ -43,4 +61,45 @@
 
 .hero-img{
     width: 100%;
+    height: 85%;
+}
+
+/* section compare */
+.section-compare{
+
+}
+.compare{
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.compare-img-box{
+    height: 100%;
+    background: linear-gradient(
+    to right bottom,
+    rgba(125, 157, 156, 0.35),
+    rgba(125, 157, 156, 0.35)
+    ),
+    url("../imgs/pexels-alexander-suhorucov-6457491.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* compare-table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: #7D9D9C;
+    color: #fff;
+    padding: 1.2rem 0;
+    text-align: left;
+    font-size: 2rem;
+}
+td{
+    font-size: 1.5rem;
+    padding: 1rem 0;
 }
