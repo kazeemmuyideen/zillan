@@ -98,6 +98,10 @@ a{
     padding-top: 7rem !important;    
 }
 
+.padding-bottom-large{
+    padding-bottom: 7rem !important;    
+}
+
 /* text-align */
 .align-center{
     text-align: center;

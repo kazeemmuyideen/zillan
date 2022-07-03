@@ -40,7 +40,7 @@
 /* hero section */
 .section-hero{
     background-color: #F0EBE3;
-    height: 73vh;
+    height: 89vh;
 }
 
 .hero{
@@ -65,14 +65,15 @@
 }
 
 /* section compare */
-.section-compare{
+/* .section-compare{
 
-}
+} */
 .compare{
     display: grid;
     grid-template-columns: 1fr 1.7fr;
     gap: 3rem;
     align-items: center;
+    height: 69vh;
 }
 
 .compare-img-box{
@@ -84,7 +85,7 @@
     ),
     url("../imgs/pexels-alexander-suhorucov-6457491.jpg");
     background-size: cover;
-    background-position: center;
+    background-position:center;
 }
 
 /* compare-table */
@@ -103,3 +104,7 @@ td{
     font-size: 1.5rem;
     padding: 1rem 0;
 }
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
