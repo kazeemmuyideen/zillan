@@ -123,8 +123,8 @@ tr:hover {background-color: #F0EBE3;}
     margin-top: 5rem;
 }
 
-.testimonial-heading{
-    
+.testimonial-heading span{
+    color: #7D9D9C;
 }
 
 .testimonials .card{
