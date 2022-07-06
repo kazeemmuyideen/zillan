@@ -135,8 +135,12 @@ tr:hover {background-color: #F0EBE3;}
     padding: 2rem;
     box-sizing: border-box;
     text-align: center;
-    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .5);
     overflow: hidden;
+    border-radius: 2rem;
+}
+
+.testimonials .card:hover{
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .5);
 }
 
 .testimonials .card .layer{
