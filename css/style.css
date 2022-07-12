@@ -9,6 +9,7 @@
     position:relative;
     
     background-color: #F0EBE3;
+    background-color: rgba(125, 157, 156,0.35)
 }
 
 .logo {
@@ -41,6 +42,7 @@
 .section-hero{
     background-color: #F0EBE3;
     height: 89vh;
+    background-color: rgba(125, 157, 156,0.35)
 }
 
 .hero{
@@ -64,7 +66,9 @@
     height: 85%;
 }
 
-/* section compare */
+/********************************************************************
+******************** section compare */
+
 /* .section-compare{
 
 } */
@@ -109,7 +113,8 @@ tr:nth-child(even){background-color: #f2f2f2;}
 
 tr:hover {background-color: #F0EBE3;}
 
-/* TERSTIMONIALS */
+/**********************************************************************
+****************** TERSTIMONIALS */
 .section-testimonial{
     /* background-color: rgb(125, 157, 156); */
     margin-top: 10rem;
@@ -202,7 +207,11 @@ tr:hover {background-color: #F0EBE3;}
     color: #F0EBE3;
 }
 
-/* Footer section */
+/********************************************************************
+********************Contact us */
+
+/*********************************************************************
+*************************** Footer section */
 .footer {
     padding: 12.8rem 0;
     border-top: 1px solid #eee;
