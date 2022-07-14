@@ -186,9 +186,6 @@ tr:hover {background-color: #F0EBE3;}
     border-radius: 50%;
     overflow: hidden;
     margin-top: auto;
-
-
-
 }
 
 .testimonials .card:hover .content img{
@@ -208,7 +205,94 @@ tr:hover {background-color: #F0EBE3;}
 }
 
 /********************************************************************
-********************Contact us */
+******************** cta-section */
+.cta-section{
+        background: linear-gradient( to right bottom, 
+        rgba(125, 157, 156, 0.35), rgba(125, 157, 156, 0.35) ), 
+        url(../imgs/undraw-contact.png);
+    background-size: left;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5rem 0;
+    margin: 13rem 0;
+}
+.cta{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(35rem,1fr ));
+    gap: 7rem;
+}
+form{
+    background: transparent;
+}
+.input-group{
+    position: relative;
+    margin: 3rem 0;
+}
+input,
+textarea{
+    width: 100%;
+    padding:1rem;
+    outline: 0;
+    border:  .1rem solid #555;
+    color: inherit;
+    background:transparent;
+    font-size: 1.5rem;
+}
+.cta-img-box{
+    height: 100%;
+    /* background: linear-gradient( to right bottom, 
+        rgba(125, 157, 156, 0.35), rgba(125, 157, 156, 0.35) ), 
+        url(../imgs/bg-card.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1rem;
+    color: #333;
+    cursor: text;
+    transition: 0.2s;
+    font-size: 1.3rem;
+}
+ion-icon{
+    height: 1.9rem;
+    width: 1.9rem;
+    margin:0 1rem;
+}
+button{
+    padding:1rem  0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #555;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* *********animation******** */
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -3.5rem;
+    font-size: 1.4rem;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 47%;
+}
+
+.cta-tittle{
+    text-align: center;
+}
+
 
 /*********************************************************************
 *************************** Footer section */
