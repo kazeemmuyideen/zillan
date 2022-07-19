@@ -89,6 +89,12 @@ a{
     background-color: #E4DCCF;
 }
 
+.btn-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+}
+
 /* margins */
 .margin-right-small {
     margin-right: 3rem !important;
@@ -105,4 +111,9 @@ a{
 /* text-align */
 .align-center{
     text-align: center;
+}
+
+/* span colored color*/
+.colored{
+    color: #E4DCCF;
 }

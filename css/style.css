@@ -212,7 +212,7 @@ tr:hover {background-color: #F0EBE3;}
         url(../imgs/undraw_contact_us_re_4qqt.svg);
     background-size: left;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom top;
     padding: 5rem 0;
     margin: 13rem 0;
 }
@@ -220,6 +220,9 @@ tr:hover {background-color: #F0EBE3;}
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(35rem,1fr ));
     gap: 7rem;
+}
+.heading-cta{
+    text-align: right   ;
 }
 form{
     background: transparent;
@@ -237,6 +240,12 @@ textarea{
     color: inherit;
     background:transparent;
     font-size: 1.5rem;
+    border-radius:.7rem;
+}
+input,textarea{
+    /* color: #fff; */
+    font-size: 1.7rem;
+    font-weight: 700;
 }
 .cta-img-box{
     height: 100%;
@@ -262,14 +271,27 @@ ion-icon{
     width: 1.9rem;
     margin:0 1rem;
 }
-button{
-    padding:1rem  0;
-    outline: none;
-    background: transparent;
-    border: 1px solid #555;
-    width: 100%;
-    cursor: pointer;
+.btn-submit{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
 }
+button:hover {
+    background-color: rgba(125, 157, 156, 0.35);
+}
+.cta-paragraph{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    background:rgba(125, 157, 156, 0.35) ;
+    padding: 10rem;
+    font-weight: 300;
+    color: #000;
+}
+.cta-tittle span{
+    color:  #202736;
+}
+
+/*************************** button  option*/
 
 /* *********animation******** */
 input:focus~label,
@@ -292,7 +314,11 @@ textarea:valid~label{
 .cta-tittle{
     text-align: center;
 }
-
+.heading-cta{
+    text-align: center;
+    /* color: #7D9D9C; */
+    color: rgba(125, 157, 156,10);
+}
 
 /*********************************************************************
 *************************** Footer section */
