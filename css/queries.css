@@ -36,7 +36,7 @@
     }
 
     .hero {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     padding: 0 8rem;
     gap: 6.4rem;
 
@@ -208,6 +208,9 @@
 /* BELOW 704PX (smaller Tablets) 704px/16px */
 /* ************************************************ */
 @media (max-width: 44em) {
+    .cta-paragraph{
+        padding: 10rem 3rem !important;
+    }
 }
 
 /* ************************************************ */

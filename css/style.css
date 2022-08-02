@@ -4,7 +4,7 @@ header{
 }
 .nav-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
     height: 9.6rem;
@@ -49,7 +49,7 @@ header{
 /* hero section */
 .section-hero{
     background-color: #F0EBE3;
-    height: 89vh;
+    /* height: 89vh; */
     background-color: rgba(125, 157, 156,0.35)
 }
 
